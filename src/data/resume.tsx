@@ -5,6 +5,7 @@ import { Icons } from "@/components/icons";
 export const DATA = {
   initials: "JS",
   name: "Johan Sierra",
+  description: "Johan Sierra's Portfolio and Resume",
   url: "https://dillion.io",
   avatarUrl: "https://github.com/xlcyanz.png",
   skills: [
