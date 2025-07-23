@@ -1,0 +1,20 @@
+{
+  "greeting": "Hola, soy",
+  "description": "Un apasionado desarrollador frontend. Me considero una persona responsable, comunicativa y con iniciativa para resolver problemas y alcanzar mis metas personales.",
+  "work_experience_title": "Experiencia laboral",
+  "skills_title": "Habilidades",
+  "learning_title": "Aprendiendo",
+  "education_title": "Educación",
+  "projects_title": "Mis proyectos",
+  "projects_subtitle": "Echa un vistazo a mi trabajo más reciente",
+  "projects_description": "He trabajado en una variedad de proyectos, desde sitios web simples hasta aplicaciones web complejas.",
+  "summary": "",
+  "navbar": {
+    "theme": "Tema",
+    "language": "Idioma"
+  },
+  "present": "Presente",
+  "contact_title": "Contáctame",
+  "contact_subtitle": "Ponte en contacto",
+  "contact_description": "¿Quieres charlar? Simplemente <email>envíame un correo electrónico con una pregunta</email> y responderé cuando pueda."
+}

@@ -1,0 +1,20 @@
+{
+  "greeting": "Hi, I'm",
+  "description": "A passionate frontend developer. I consider myself a responsible, communicative person with the initiative to solve problems and achieve my personal goals.",
+  "work_experience_title": "Work Experience",
+  "skills_title": "Skills",
+  "learning_title": "Currently Learning",
+  "education_title": "Education",
+  "projects_title": "My Projects",
+  "projects_subtitle": "Check out my latest work",
+  "projects_description": "I've worked on a variety of projects, from simple websites to complex web applications.",
+  "summary": "",
+  "navbar": {
+    "theme": "Theme",
+    "language": "Language"
+  },
+  "present": "Present",
+  "contact_title": "Contact Me",
+  "contact_subtitle": "Get in Touch",
+  "contact_description": "Want to chat? Just <email>send me an email with a question</email> and I'll respond whenever I can."
+}
