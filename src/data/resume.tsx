@@ -6,7 +6,7 @@ export const DATA = {
   initials: "JS",
   name: "Johan Sierra",
   description: "Johan Sierra's Portfolio and Resume",
-  url: "https://dillion.io",
+  url: "https://xlcyanz.vercel.app",
   avatarUrl: "https://github.com/xlcyanz.png",
   skills: [
     "React",
