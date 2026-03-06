@@ -15,8 +15,8 @@ type Metadata = {
   image?: string;
 };
 
-function getMDXFiles(dir: string) {
-  return fs.readdirSync(dir).filter((file) => path.extname(file) === ".mdx");
+function getMDXFiles(dir: string, lang: string = "es") {
+  return fs.readdirSync(dir).filter((file) => file.endsWith(`.${lang}.mdx`));
 }
 
 export async function markdownToHTML(markdown: string) {
@@ -38,9 +38,14 @@ export async function markdownToHTML(markdown: string) {
   return p.toString();
 }
 
-export async function getPost(slug: string) {
-  const filePath = path.join("content", `${slug}.mdx`);
-  let source = fs.readFileSync(filePath, "utf-8");
+export async function getPost(slug: string, lang: string = "es") {
+  const filePath = path.join("content", `${slug}.${lang}.mdx`);
+  let source;
+  try {
+    source = fs.readFileSync(filePath, "utf-8");
+  } catch (e) {
+    return null;
+  }
   const { content: rawContent, data: metadata } = matter(source);
   const content = await markdownToHTML(rawContent);
   return {
@@ -50,12 +55,14 @@ export async function getPost(slug: string) {
   };
 }
 
-async function getAllPosts(dir: string) {
-  let mdxFiles = getMDXFiles(dir);
-  return Promise.all(
+async function getAllPosts(dir: string, lang: string = "es") {
+  let mdxFiles = getMDXFiles(dir, lang);
+  const posts = await Promise.all(
     mdxFiles.map(async (file) => {
-      let slug = path.basename(file, path.extname(file));
-      let { metadata, source } = await getPost(slug);
+      let slug = path.basename(file, `.${lang}.mdx`);
+      let post = await getPost(slug, lang);
+      if (!post) return null;
+      let { metadata, source } = post;
       return {
         metadata,
         slug,
@@ -63,8 +70,9 @@ async function getAllPosts(dir: string) {
       };
     }),
   );
+  return posts.filter((p) => p !== null) as NonNullable<typeof posts[0]>[];
 }
 
-export async function getBlogPosts() {
-  return getAllPosts(path.join(process.cwd(), "content"));
+export async function getBlogPosts(lang: string = "es") {
+  return getAllPosts(path.join(process.cwd(), "content"), lang);
 }

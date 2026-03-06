@@ -1,5 +1,6 @@
 import BlurFade from "@/components/magicui/blur-fade";
 import { getBlogPosts } from "@/data/blog";
+import { getUserLocale } from "@/lib/locale";
 import Link from "next/link";
 
 export const metadata = {
@@ -10,12 +11,13 @@ export const metadata = {
 const BLUR_FADE_DELAY = 0.04;
 
 export default async function BlogPage() {
-  const posts = await getBlogPosts();
+  const locale = await getUserLocale();
+  const posts = await getBlogPosts(locale);
 
   return (
     <section>
       <BlurFade delay={BLUR_FADE_DELAY}>
-        <h1 className="font-medium text-2xl mb-8 tracking-tighter">blog</h1>
+        <h1 className="font-medium text-2xl mb-8 tracking-tighter">Blogs</h1>
       </BlurFade>
       {posts
         .sort((a, b) => {

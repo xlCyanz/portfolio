@@ -2,7 +2,7 @@
   "greeting": "Hi, I'm",
   "description": "A passionate frontend developer. I consider myself a responsible, communicative person with the initiative to solve problems and achieve my personal goals.",
   "work_experience_title": "Work Experience",
-  "skills_title": "Skills",
+  "techs_title": "Techs",
   "learning_title": "Currently Learning",
   "education_title": "Education",
   "projects_title": "My Projects",
@@ -16,5 +16,6 @@
   "present": "Present",
   "contact_title": "Contact Me",
   "contact_subtitle": "Get in Touch",
-  "contact_description": "Want to chat? Just <email>send me an email with a question</email> and I'll respond whenever I can."
+  "contact_description": "Want to chat? Just <email>send me an email with a question</email> and I'll respond whenever I can.",
+  "back": "Back"
 }

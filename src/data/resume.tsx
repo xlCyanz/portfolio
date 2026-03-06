@@ -1,5 +1,3 @@
-import { HomeIcon } from "lucide-react";
-
 import { Icons } from "@/components/icons";
 
 export const DATA = {
@@ -8,12 +6,12 @@ export const DATA = {
   description: "Johan Sierra's Portfolio and Resume",
   url: "https://xlcyanz.vercel.app",
   avatarUrl: "https://github.com/xlcyanz.png",
-  skills: [
+  techs: [
     "React",
     "Node.js",
-    "Postgres",
-    "Typescript",
     "GraphQL",
+    "PostgreSQL",
+    "Typescript",
     "TailwindCSS",
   ],
   learning: ["React Native", "Next.js", "NestJS"],
@@ -51,7 +49,7 @@ export const DATA = {
         title: "Analyst / Programmer",
         logoUrl: "/nubeteck.webp",
         start: "March 2023",
-        end: "Present",
+        end: "",
         description:
           "I am currently working as a frontend developer at Nubeteck, where I am responsible for developing and maintaining web applications using ReactJS.",
       },
@@ -98,8 +96,25 @@ export const DATA = {
   projects: {
     es: [
       {
+        title: "Eventify",
+        href: "/blog/eventify",
+        dates: "",
+        active: true,
+        description:
+          "Plataforma integral de gestión de eventos que permite registrar asistentes y automatiza la generación de certificados con validación QR, enviándolos directamente por correo electrónico.",
+        technologies: [
+          "Node.js",
+          "Handlebars",
+          "TailwindCSS",
+          "PostgreSQL",
+        ],
+        links: [],
+        image: "/eventify.png",
+        video: "",
+      },
+      {
         title: "Teacher Reviewer",
-        href: "https://teacher-reviewer.vercel.app",
+        href: "/blog/teacher-reviewer",
         dates: "",
         active: true,
         description:
@@ -119,8 +134,25 @@ export const DATA = {
     ],
     en: [
       {
+        title: "Eventify",
+        href: "/blog/eventify",
+        dates: "",
+        active: true,
+        description:
+          "Comprehensive event management platform that allows registering attendees and automates the generation of QR-validated certificates, sending them directly via email.",
+        technologies: [
+          "Node.js",
+          "Handlebars",
+          "TailwindCSS",
+          "PostgreSQL",
+        ],
+        links: [],
+        image: "/eventify.png",
+        video: "",
+      },
+      {
         title: "Teacher Reviewer",
-        href: "https://teacher-reviewer.vercel.app",
+        href: "/blog/teacher-reviewer",
         dates: "",
         active: true,
         description:
