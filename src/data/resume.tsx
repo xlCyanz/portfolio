@@ -49,9 +49,9 @@ export const DATA = {
         title: "Analyst / Programmer",
         logoUrl: "/nubeteck.webp",
         start: "March 2023",
-        end: "",
+        end: "March 2026",
         description:
-          "I am currently working as a frontend developer at Nubeteck, where I am responsible for developing and maintaining web applications using ReactJS.",
+          "I worked as a frontend developer at Nubeteck, where I was responsible for the development and maintenance of web applications using ReactJS.",
       },
     ],
     es: [
@@ -63,9 +63,9 @@ export const DATA = {
         title: "Analista / Programador",
         logoUrl: "/nubeteck.webp",
         start: "Marzo 2023",
-        end: "",
+        end: "Marzo 2026",
         description:
-          "Actualmente trabajo como desarrollador frontend en Nubeteck, donde soy responsable de desarrollar y mantener aplicaciones web utilizando ReactJS.",
+          "Trabajé como desarrollador frontend en Nubeteck, donde fui responsable del desarrollo y mantenimiento de aplicaciones web utilizando ReactJS.",
       },
     ],
   },
@@ -173,33 +173,3 @@ export const DATA = {
   },
   hackathons: [],
 } as const;
-
-// {
-//   title: "Automatic Chat",
-//   href: "https://automatic.chat",
-//   dates: "April 2023 - March 2024",
-//   active: true,
-//   description:
-//     "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-//   technologies: [
-//     "Next.js",
-//     "Typescript",
-//     "PostgreSQL",
-//     "Prisma",
-//     "TailwindCSS",
-//     "Shadcn UI",
-//     "Magic UI",
-//     "Stripe",
-//     "Cloudflare Workers",
-//   ],
-//   links: [
-//     {
-//       type: "Website",
-//       href: "https://automatic.chat",
-//       icon: <Icons.globe className="size-3" />,
-//     },
-//   ],
-//   image: "",
-//   video:
-//     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-// },
