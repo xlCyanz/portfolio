@@ -3,7 +3,7 @@ import { Icons } from "@/components/icons";
 export const DATA = {
   initials: "JS",
   name: "Johan Sierra",
-  description: "Johan Sierra's Portfolio and Resume",
+  description: "Portafolio de Johan Sierra",
   url: "https://xlcyanz.vercel.app",
   avatarUrl: "https://github.com/xlcyanz.png",
   techs: [
@@ -13,8 +13,10 @@ export const DATA = {
     "PostgreSQL",
     "Typescript",
     "TailwindCSS",
+    "Docker",
+    "NestJS"
   ],
-  learning: ["React Native", "Next.js", "NestJS"],
+  learning: ["React Native", "Next.js"],
   contact: {
     email: "johanse.linares@gmail.com",
     tel: "+123456789",
@@ -32,7 +34,7 @@ export const DATA = {
         navbar: true,
       },
       Email: {
-        name: "Send Email",
+        name: "Enviar correo",
         url: "mailto:johanse.linares@gmail.com",
         icon: Icons.email,
         navbar: true,
@@ -51,7 +53,7 @@ export const DATA = {
         start: "March 2023",
         end: "March 2026",
         description:
-          "I worked as a frontend developer at Nubeteck, where I was responsible for the development and maintenance of web applications using ReactJS.",
+          "Development of internal web applications and systems for external clients using React, TypeScript, and TailwindCSS. Participated in DevOps tasks, including containerization with Docker and managing production deployments. Provided mentorship and technical support to junior developers and interns, guiding them through the resolution of technical problems.",
       },
     ],
     es: [
@@ -65,7 +67,7 @@ export const DATA = {
         start: "Marzo 2023",
         end: "Marzo 2026",
         description:
-          "Trabajé como desarrollador frontend en Nubeteck, donde fui responsable del desarrollo y mantenimiento de aplicaciones web utilizando ReactJS.",
+          "Desarrollo de aplicaciones web internas y sistemas para clientes externos utilizando React, TypeScript y TailwindCSS. Participé en tareas de DevOps, incluyendo contenedorización con Docker y gestión de despliegues a producción. Brindé mentoría y soporte técnico a desarrolladores nuevos y pasantes, acompañándolos en la resolución de problemas técnicos.",
       },
     ],
   },
