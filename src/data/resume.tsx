@@ -53,7 +53,7 @@ export const DATA = {
         start: "March 2023",
         end: "March 2026",
         description:
-          "Development of internal web applications and systems for external clients using React, TypeScript, and TailwindCSS. Participated in DevOps tasks, including containerization with Docker and managing production deployments. Provided mentorship and technical support to junior developers and interns, guiding them through the resolution of technical problems.",
+          "Development of internal web applications and financial systems for clients using React, TypeScript, and TailwindCSS. Participated in DevOps tasks, including containerization with Docker and managing production deployments. Provided mentorship and technical support to new developers and interns, guiding them through technical troubleshooting.",
       },
     ],
     es: [
@@ -67,7 +67,7 @@ export const DATA = {
         start: "Marzo 2023",
         end: "Marzo 2026",
         description:
-          "Desarrollo de aplicaciones web internas y sistemas para clientes externos utilizando React, TypeScript y TailwindCSS. Participé en tareas de DevOps, incluyendo contenedorización con Docker y gestión de despliegues a producción. Brindé mentoría y soporte técnico a desarrolladores nuevos y pasantes, acompañándolos en la resolución de problemas técnicos.",
+          "Desarrollo de aplicaciones web internas y sistemas financieros para clientes utilizando React, TypeScript y TailwindCSS. Participé en tareas de DevOps, incluyendo contenedorización con Docker y gestión de despliegues a producción. Brindé mentoría y soporte técnico a desarrolladores nuevos y pasantes, acompañándolos en la resolución de problemas técnicos.",
       },
     ],
   },
